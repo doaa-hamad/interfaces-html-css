@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root{
+  --main-color: #24caac ;
+  --color-1:#eaa023 ;
+  --color-2:	#7F0044 ;
+  --dark-800:#24292d ;
+  --blue : blue ;
+  --white-900:#ffffff ;
+  --my_color : #66FFC7 ;
+  --white-800: rgba(255,255,255,0.8) ;
+  --shadow: 0 0 15px rgba(0,0,0,0.2);
+  scroll-behavior: smooth;
+  --blue-green : 		#190010 ;
+}
+/*h1{
+  margin-right: 20;
+} */
+body{ /* to control of style of page in general */
+  background-color: white;
+  font-family: 'Open sans', sans-serif;
+  /* font-family: "serif" , 'Poppins' ,sans-serif; */
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  overflow-y: scroll; /* which move page down or up */
+  color:  var(white);
+}
+/* header */
+.header{
+  background-color: rgba(0, 128, 0, 0.822); 
+  padding: 2px 0; 
+  left: 0; 
+  top: 0;
+  width: 100%;
+}
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+ul{
+  list-style: none;   /* control of items : to remove the the circle mark next to items */
+}
+ul.b{
+  list-style:none ;   /* control of items : to remove the the circle mark next to items */
+  max-width: 150px;
+  /* max-height: 50px; */
+}
+nav li { /* to Control of items of nav */
+  margin-right: 20px;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+}
+a{ /* to remove underline for logo and elements */
+  text-decoration: none;
+  color:	white
+}
+a:link { /* unvisited link */
+  color: white;
+}
+a:hover { /* mouse over link */
+  color:	white;
+  text-decoration: underline;
+}
+a:active { /* selected link */
+  color: 	white;
+  text-decoration: underline;
+}
+.header .logo a{  /* This is only private (logo)*/
+  color: var(white); 
+}
+.header .logo{
+  padding: 0 55px 0 55px; /* Distances for logo aboute from four sides of the page */
+  font-size: 40px; /* to select the Size of font*/
+  color: var(--white-800); /* to select the color font*/
+  text-transform:capitalize ;
+  font-weight:400 ;  /* to select the weight of font*/
+}
+img:hover{ 
+  opacity: 0.6;
+}
+.row{ /* to To control the title bar */
+  display: flex;
+}
+.justify-content-between{ /* to make cpace between logo and elements in bar */
+  justify-content: space-between;
+}
+.align-items-center{ /* to select the position the logo */
+  align-items: center;
+}
+hr.solid {
+  border-top: 0 solid white;
+}
+.select:not(.select--multiple)::after
+select[multiple] {
+    padding-right: 0;
+  }
+  select[multiple] option {
+    white-space: normal;
+  }
+  select[multiple] {
+    height: 6rem;
+  }
+  .select--disabled {
+    cursor: not-allowed;
+    background-color: #eee;
+    background-image: linear-gradient(to top, #ddd, #eee 33%);
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 5px 30px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text]{
+    width: 100%;
+    padding: 8px 30px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #current_page { color: #3416e0f3; }  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  h1{margin-right: 40px;} 
+ 
+
+  
+  
+

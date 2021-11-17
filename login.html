@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>جامعة اب</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="E:/University_Housing/University_Housing/login.css">
-    </head>
-    <body>
-        <div class="perspective effect-laydown">   
-            <div class="container">
-                <div class="wrapper">
-                    <!-- wrapper needed for scroll -->
-                    <!-- <header class="header"> -->
-                        
-                    <!-- </header> -->
-                    <h1>
-                        <img src="E:\University_Housing\imgs\University_logo.jpg" width="100" height="100">
-                        <span>جامعة اب - اليمن </span>
-                        <p><span color="green">نظام المصادقة الموحد</span></p>
-                    </h1>
-                    <div class="login">
-                        <h2>قم بإدخال اسم المستخدم وكلمة المرور</h2>  
-                        <input type="text"name="j_username" autocomplete="none" placeholder="اسم المستخدم" value=""  required>  
-                        <input type="password" name="j_password" autocomplete="none" placeholder="كلمة المرور" value=""  required>                        <div class="pass">
-                            <p></p>
-                            <a href="https://accounts.iugaza.edu.ps/#!/change_password"><strong> تغيير كلمة المرور</strong></a>  
-                            <a href="https://accounts.iugaza.edu.ps/#!/request_password"><strong>  | استرجاع كلمة المرور</strong></a>
-                        </div>
-                      <input type="submit" value="تسجيل الدخول" t>
-                    </div>
-                    <div class="shadow"></div>
-    </body>
-</html> 
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Welcome to my Website">
+  <title>login</title>
+  <link rel="stylesheet" href="css\style.css">
+</head>
+<style></style>
+<body background="img/bg-1.jpg">
+
+  <!-- ====================== navbar ======================-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul>
+            <li><a href=""><strong>Home</strong></a></li>
+            <li><a href=""><strong>About</strong></a></li>
+            <li><a href=""><strong>Contact</strong></a></li>
+            <li><a href=""><strong>Map</strong></a></li>
+          </ul>
+          <form class="d-flex" style="margin: 90px; margin-left:60%; margin-top:0%;">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- ================================================== -->
+  
+  <main id="main-holder">
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username
+      <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+      <h1 id="login-header" style="color:white;">LOGIN</h1>
+      <input type="text" name="name" placeholder="User Name" size="40" required class="login-form-field" >
+      <br><br>
+      <input type="password" name="pass" placeholder="Password" size="40" required class="login-form-field" >
+      <br><br>
+      <input id="submit" type="Submit" value="Submit" style="margin-left:0%;">
+    
+
+  
+  </main>
+</body>
+</html>
